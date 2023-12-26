@@ -1,0 +1,16 @@
+form{
+    border: 1px solid black;
+    border-radius: 10px 50px;
+    box-shadow: 10px 10px 10px grey;
+    width:50%;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    padding:30px 30px;
+}
+
+button{
+    /* margin:30px 10px; */
+    width:30%;
+    margin:30px auto;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <title>Diet-Plan Maker</title>
+</head>
+<body>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      
+        <label for="weight">Weight:</label>
+        <input type="text" id="weight" name="weight" required>
+
+        <label for="Age">Age:</label>
+        <input type="text" id="age" name="age" required>
+
+        <label for="height">Height:</label>
+        <input type="text" id="height" name="height" required>
+      
+        <button type="button" onclick="generatePDF()">Generate PDF</button>
+      </form>      
+<script src="script.js"></script>
+</body>
+</html>
